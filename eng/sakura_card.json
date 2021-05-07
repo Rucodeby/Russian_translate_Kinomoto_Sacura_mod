@@ -1,0 +1,785 @@
+{
+  "ClowCardTheArrow": {
+    "NAME": "Эроу",
+    "DESCRIPTION": "[ Огонь ] NL Сбрасывает любое количество карт. NL Наносит !D! урона случайному врагу X раз плюс количество сброшенных карт.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Огонь ] NL Сбрасывает любое количество карт. NL Наносит !D! урона X раз плюс количество сброшенных карт."
+    ]
+  },
+  "ClowCardTheBig": {
+    "NAME": "Биг",
+    "DESCRIPTION": "[ Огонь ] NL Даёт !M! Силы. NL Отнимает 1 Ловкости.",
+    "UPGRADE_DESCRIPTION": "[ Огонь ] NL Даёт !M! Силы.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheBubbles": {
+    "NAME": "Баблз",
+    "DESCRIPTION": "[ Вода ] NL Наносит !D! урона. NL Снимает случайный пол. эффект.",
+    "UPGRADE_DESCRIPTION": "[ Вода ] NL Наносит !D! урона. NL Снимает случайный пол. эффект. NL Даёт !M! Магичесkого_заряда если сняла эффект.",
+    "EXTENDED_DESCRIPTION": [
+      "[ Вода ] NL Наносит !D! урона. NL Снимает все пол. эффекты.",
+      "[ Вода ] NL Наносит !D! урона. NL Снимает все пол. эффекты. NL Даёт !M! Магичесkого_заряда если сняла эффекты."
+    ]
+  },
+  "ClowCardTheChange": {
+    "NAME": "Чендж",
+    "DESCRIPTION": "[ Земля ] NL Вы сбрасываете до 1 карты затем берёте !M! карты плюс количество сброшенных карт.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Вы берёте ",
+      " доп. карты."
+    ]
+  },
+  "ClowCardTheCloud": {
+    "NAME": "Клауд",
+    "DESCRIPTION": "[ Вода ] NL Даёт !M! Защиты за каждую карту Воды в руке.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт доп. ",
+      " Защиты."
+    ]
+  },
+  "ClowCardTheCreate": {
+    "NAME": "Крейт",
+    "DESCRIPTION": "[ Земля ][ Ветер ] NL Дешевеющая. Entity-Limited. NL Добавляет случайную реликвию в награду после боя. NL Удаляется.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheDark": {
+    "NAME": "Дарк",
+    "DESCRIPTION": "[ Ветер ][ Вода ] NL В конце каждого вашего хода вы можете сжечь 1 карту, получив [E] .",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheDash": {
+    "NAME": "Дэш",
+    "DESCRIPTION": "[ Ветер ] NL Вы берёте !M! карты. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Вы берёте ",
+      " доп. карты."
+    ]
+  },
+  "ClowCardTheDream": {
+    "NAME": "Дрим",
+    "DESCRIPTION": "[ Ветер ] NL Добавляет !M! случайную карту Клоу в руку, она стоит 0 до конца хода. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Добавляет ещё ",
+      " случайную карту Клоу."
+    ]
+  },
+  "ClowCardTheEarthy": {
+    "NAME": "Эрси",
+    "DESCRIPTION": "[ Земля ] NL Добавляет !M! Лей_Ди в руку. Перейти в стойку_Земли.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheErase": {
+    "NAME": "Эрейз",
+    "DESCRIPTION": "[ Ветер ] NL Убивает Миньона или обычного врага с меньше чем 1/3 от его макс. ОЗ иначе, наносит !D! урона.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Убивает не босса и не миньона с меньше чем 2/3 от его макс ОЗ иначе, наносит !D! урона."
+    ]
+  },
+  "ClowCardTheFight": {
+    "NAME": "Файт",
+    "DESCRIPTION": "[ Земля ] NL Нескончаемая. NL Наносит !D! урона. NL Даёт 1 Магичесkого_заряда. NL Даёт !M! Временной_Силы. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт ",
+      " Силы."
+    ]
+  },
+  "ClowCardTheFirey": {
+    "NAME": "Файэри",
+    "DESCRIPTION": "[ Огонь ] NL Добавляет !M! Хо_Шэнь в руку. NL Перейти в стойку_Огня.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheFloat": {
+    "NAME": "Флоат",
+    "DESCRIPTION": "[ Ветер ] NL Даёт !M! Защиты за каждую карту, которую вы берёте.",
+    "UPGRADE_DESCRIPTION": "[ Ветер ] NL Начальная. NL Даёт !M! Защиты за каждую карту, которую вы берёте.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheFlower": {
+    "NAME": "Флауэр",
+    "DESCRIPTION": " [ Земля ] NL Даёт !M! [E]. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "[ Земля ] NL Даёт !M! [E].",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт доп. ",
+      " [E]."
+    ]
+  },
+  "ClowCardTheFly": {
+    "NAME": "Флай",
+    "DESCRIPTION": "[ Ветер ] NL Вы берёте !M! карты. Отнимает 3 Магичесkого_заряда.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Вы берёте ещё ",
+      " карты."
+    ]
+  },
+  "ClowCardTheFreeze": {
+    "NAME": "Фриз",
+    "DESCRIPTION": "[ Вода ] NL Наносит !D! урона. NL Даёт !B! Защиты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Target-Frozen."
+    ]
+  },
+  "ClowCardTheGlow": {
+    "NAME": "Глоу",
+    "DESCRIPTION": "[ Огонь ] NL Вы берёте !M! карты. NL Даёт 2 Магичесkого_заряда.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheIllusion": {
+    "NAME": "Иллюжн",
+    "DESCRIPTION": "[ Ветер ] NL Даёт !B! Защиты. NL За каждые 3 Сожжённые карты даёт ещё !M! Защиты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Даёт !B! Защиты. NL За каждые 3 Сожжённые карты даёт ещё !M! Защиты."
+    ]
+  },
+  "ClowCardTheJump": {
+    "NAME": "Джамп",
+    "DESCRIPTION": "[ Ветер ] NL Даёт !B! Защиты. NL Снимает случайный отриц. эффект. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Даёт !B! Защиты. NL Снимает ВСЕ отриц. эффекты. NL Сжигается"
+    ]
+  },
+  "ClowCardTheLibra": {
+    "NAME": "Либра",
+    "DESCRIPTION": "[ Огонь ] NL Даёт !B! Защиты. NL Если нет Защиты, отнимает !M! Магичесkого_заряда и даёт вдвое больше Защиты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт ещё ",
+      " Защиты."
+    ]
+  },
+  "ClowCardTheLight": {
+    "NAME": "Лайт",
+    "DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает [E].",
+    "UPGRADE_DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает [E]. NL Бездну теперь можно разыграть NL Вы берёте карту при разыгрывании *Бездны.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheLittle": {
+    "NAME": "Литл",
+    "DESCRIPTION": "[ Вода ] NL Даёт !M! Ловкости. NL Отнимает 1 Силы.",
+    "UPGRADE_DESCRIPTION": "[ Вода ] NL Даёт !M! Ловкости.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheLock": {
+    "NAME": "Лок",
+    "DESCRIPTION": "[ Огонь ] NL Призрачная NL Сжигает до !M! карт. Даёт 1 Магичесkого_заряда за каждую Сожжённую карту. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheLoop": {
+    "NAME": "Луп",
+    "DESCRIPTION": "[ Земля ] NL В начале каждого вашего хода, вы берёте !M! карту и сбрасываете !M! карту.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheMaze": {
+    "NAME": "Мейз",
+    "DESCRIPTION": "[ Земля ] NL Даёт !B! Защиты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт доп. ",
+      " Защиты."
+    ]
+  },
+  "ClowCardTheMirror": {
+    "NAME": "Миррор",
+    "DESCRIPTION": "[ Вода ] NL Эфирная. NL Копирует карту Сакуры или Клоу в руке. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "[ Вода ] NL Копирует карту Сакуры или Клоу в руке. NL Сжигается",
+    "EXTENDED_DESCRIPTION": [
+      " Добавляет ещё 1 копию выбранной карты в руку"
+    ]
+  },
+  "ClowCardTheMist": {
+    "NAME": "Мист",
+    "DESCRIPTION": "[ Земля ] NL Накладывает !M! Яда на ВСЕХ врагов.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Снимает ВСЕ Защитные_эффекты с врагов."
+    ]
+  },
+  "ClowCardTheMove": {
+    "NAME": "Мув",
+    "DESCRIPTION": "[ Огонь ] NL Добавляет !M! Пустых_заклинания в руку.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Добавляет ",
+      " доп. Пустое_заклинание."
+    ]
+  },
+  "ClowCardTheNothing": {
+    "NAME": "Нафинг",
+    "DESCRIPTION": "Карты Сакуры и Клоу теперь стоят 0, получают Контратаку !D! и Оберегание !B!, Сжигаются при разыгрывании. Поглощает !M!.",
+    "UPGRADE_DESCRIPTION": "Карты Сакуры и Клоу теперь стоят 0, получают Контратаку !D! и Оберегание !B!, Сжигаются при разыгрывании.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardThePower": {
+    "NAME": "Павер",
+    "DESCRIPTION": "[ Огонь ] NL Наносит !D! урона. NL Отнимает !M! Силы.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Доп. наносит ",
+      " Реального_урона."
+    ]
+  },
+  "ClowCardTheRain": {
+    "NAME": "Рейн",
+    "DESCRIPTION": "[ Вода ] NL Уменьшает стоимость всех карт в руке на 1 до конца хода. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Вода ] NL Уменьшает стоимость всех карт в руке на 1 до конца хода."
+    ]
+  },
+  "ClowCardTheReturn": {
+    "NAME": "Ретурн",
+    "DESCRIPTION": "[ Вода ] NL Запомните данную стойку и перейдите в неё через !M! хода. NL Добавляет 2 *Бездны в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "[ Вода ] NL Оставляется. NL Запомните данную стойку и перейдите в неё через !M! хода. NL Добавляет 2 *Бездны в стопку сброса.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheSand": {
+    "NAME": "Сэнд",
+    "DESCRIPTION": "[ Земля ] NL Наносит !D! урона. NL Накладывает !M! Яда.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Накладывает ещё ",
+      " Яда."
+    ]
+  },
+  "ClowCardTheShadow": {
+    "NAME": "Шэдоу",
+    "DESCRIPTION": "[ Земля ] NL Даёт !B! Защиты. NL Даёт !M! Неуловимости.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт ещё ",
+      " Неуловимости."
+    ]
+  },
+  "ClowCardTheShield": {
+    "NAME": "Шилд",
+    "DESCRIPTION": "[ Огонь ] NL Одинокий_рейнджер. NL Даёт !B! Защиты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Даёт ",
+      " Металлизации."
+    ]
+  },
+  "ClowCardTheShot": {
+    "NAME": "Шот",
+    "DESCRIPTION": "[ Огонь ] NL Наносит !D! урона и накладывает !M! Яда 2 раза.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "  Доп. накладывает ",
+      " Уязвимости."
+    ]
+  },
+  "ClowCardTheSilent": {
+    "NAME": "Сайлент",
+    "DESCRIPTION": "[ Вода ] NL Даёт 1 Буфер. Вы не сможете разыгрывать Атаки в следующем ходу.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Вода ] NL Даёт 1 Буфер."
+    ]
+  },
+  "ClowCardTheSleep": {
+    "NAME": "Слип",
+    "DESCRIPTION": "[ Ветер ] NL Усыпляет любого врага, кроме босса, на !M! ход. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Усыпляет ВСЕХ, кроме боссов, на !M! ход. NL Сжигается"
+    ]
+  },
+  "ClowCardTheSnow": {
+    "NAME": "Сноу",
+    "DESCRIPTION": "[ Вода ] NL Наносит !D! урона случайному врагу за каждую разыгранную карту Клоу с элементом Воды.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Наносит доп. ",
+      " урона ВСЕМ врагам.",
+      "Наносит !M! урона."
+    ]
+  },
+  "ClowCardTheSong": {
+    "NAME": "Сонг",
+    "DESCRIPTION": "[ Ветер ] NL Сжигает до X+1 карт. За каждую Сожжённую карту наносит !D! урона ВСЕМ врагам.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Наносит урон ещё ",
+      " раза."
+    ]
+  },
+  "ClowCardTheStorm": {
+    "NAME": "Сторм",
+    "DESCRIPTION": "[ Ветер ] NL Наносит !D! урона. Добавляет 1 *Бездну в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Наносит !D! урона ВСЕМ врагам. Добавляет 1 *Бездну в стопку сброса."
+    ]
+  },
+  "ClowCardTheSweet": {
+    "NAME": "Свит",
+    "DESCRIPTION": "[ Огонь ] NL Восполняет !M! ОЗ. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Огонь ] NL Даёт !M! Регенерации. NL Сжигается."
+    ]
+  },
+  "ClowCardTheSword": {
+    "NAME": "Сорд",
+    "DESCRIPTION": "[ Огонь ] NL Одинокий_рейнджер. NL Наносит !D! урона.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      " Доп. наносит ",
+      " Реального_урона."
+    ]
+  },
+  "ClowCardTheThrough": {
+    "NAME": "Фру",
+    "DESCRIPTION": "[ Земля ] NL Наносит !D! урона ВСЕМ врагам. NL Активирует урон Яда. NL Добавляет *Бездну в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "[ Земля ] NL Наносит !D! урона ВСЕМ врагам. NL Углубляет Яд на !M!. Активирует урон Яда. NL Добавляет *Бездну в стопку сброса.",
+    "EXTENDED_DESCRIPTION": [
+      " Наносит ",
+      "% урона от макс. ОЗ цели."
+    ]
+  },
+  "ClowCardTheThunder": {
+    "NAME": "Сандер",
+    "DESCRIPTION": "[ Земля ] NL Оставляется. Рассеяная. NL Наносит !D! урона случайному врагу !M! раза. NL Добавляет 1 *Бездну в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheTime": {
+    "NAME": "Тайм",
+    "DESCRIPTION": "[ Вода ] NL Прерывает все действия противника. NL Добавляет 2 *Бездны в стопку сброса. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "[ Вода ] NL Прерывает все действия противника. NL Наносит !D! урона ВСЕМ врагам. NL Добавляет 2 *Бездны в стопку сброса. NL Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      "[ Вода ] NL Прерывает все действия противника. NL Сжигается.",
+      "[ Вода ] NL Прерывает все действия противника. NL Наносит !D! урона ВСЕМ врагам. NL Сжигается."
+    ]
+  },
+  "ClowCardTheTwin": {
+    "NAME": "Твин",
+    "DESCRIPTION": "[ Вода ][ Огонь ] NL В начале каждого вашего хода, первая карта Клоу разыгрывается дважды.",
+    "UPGRADE_DESCRIPTION": "[ Вода ][ Огонь ] NL Оставляется. NL В начале каждого вашего хода, первая карта Клоу разыгрывается дважды.",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheVoice": {
+    "NAME": "Войс",
+    "DESCRIPTION": "[ Ветер ] NL Эфирная. Невидимая. NL Добавляет свою копию в стопку сброса. NL Оберегает на !B!. NL !M! Эхо.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": [
+      "[ Ветер ] NL Эфирная. Невидимая. NL Добавляет свою копию в стопку сброса. NL Оберегает на !B!. NL !M! Эхо."
+    ]
+  },
+  "ClowCardTheWatery": {
+    "NAME": "Вотери",
+    "DESCRIPTION": "[ Вода ] NL Добавляет !M! Шуй_Лонг в руку. NL Перейти в стойку_Воды.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheWave": {
+    "NAME": "Вейв",
+    "DESCRIPTION": "[ Вода ] NL Даёт !M! Защиты, когда вы разыгрываете Атаку.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheWindy": {
+    "NAME": "Винди",
+    "DESCRIPTION": "[ Ветер ] NL Добавляет !M! Фэн_Хуа в руку. NL Перейти в стойку_Ветра.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "ClowCardTheWood": {
+    "NAME": "Вуд",
+    "DESCRIPTION": "[ Земля ] NL Враг теряет !M! Силы до конца своего хода. NL Увеличивает Яд на 50%.",
+    "UPGRADE_DESCRIPTION": "[ Земля ] NL Враг теряет !M! Силы до конца своего хода. NL Переносит весь Яд на данного врага. Увеличивает Яд на 50%.",
+    "EXTENDED_DESCRIPTION": [
+      " Накладывает ",
+      " Слабости."
+    ]
+  },
+  "SpellCardRelease": {
+    "NAME": "Выпустить",
+    "DESCRIPTION": "[ Заклинание ] NL Пробуждает 1 карту Клоу в руке. Накладывает !M! Уязвимости на ВСЕХ врагов.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardSeal": {
+    "NAME": "Запечатать",
+    "DESCRIPTION": "[ Заклинание ] NL Наносит !D! урона. Запечатанный_посох получает !M! заряд, если убъёт.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardTurn": {
+    "NAME": "Обратить",
+    "DESCRIPTION": "[ Заклинание ] NL Оставляется. NL Превращает 1 карту Клоу в карту Сакуры.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardEmptySpell": {
+    "NAME": "Пустое заклинание",
+    "DESCRIPTION": "[ Заклинание ] NL Эфирная. NL Добавляет Хо_Шэнь, Лей_Ди, Фэн_Хуа и Шуй_Лонг в руку. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardHuoShen": {
+    "NAME": "Хо Шэнь",
+    "DESCRIPTION": "[ Заклинание ][ Огонь ] NL Эфирная. NL Наносит !D! урона. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardLeiDi": {
+    "NAME": "Лей Ди",
+    "DESCRIPTION": "[ Заклинание ][ Земля ] NL Эфирная. NL Наносит !D! урона случайному врагу. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardFengHua": {
+    "NAME": "Фэн Хуа",
+    "DESCRIPTION": "[ Заклинание ][ Ветер ] NL Эфирная. NL Наносит !D! урона !M! раза. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SpellCardShuiLong": {
+    "NAME": "Shui Long",
+    "DESCRIPTION": "[ Заклинание ][ Вода ] NL Эфирная. NL Наносит !D! урона ВСЕМ врагам. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheArrow": {
+    "NAME": "Эроу",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Сбрасывает все карты в стопке добора. Наносит !D! урона случайной цели за каждую уникальную карту Сакуры или Клоу.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheBig": {
+    "NAME": "Биг",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Атаки теперь наносят на 33% больше урона.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheBubbles": {
+    "NAME": "Баблз",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Оставляется. NL Наносит !D! урона ВСЕМ врагам. Снимает все пол. эффекты с цели. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheChange": {
+    "NAME": "Чендж",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Сбрасывает все карты в руке. Вы берёте !M! карты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheCloud": {
+    "NAME": "Клауд",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Даёт !B! Защиты. Даёт Защиту ещё раз за каждую карту Воды в колоде.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheCreate": {
+    "NAME": "Крейт",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ][ Ветер ] NL Добавляет случайную реликвию и реликвию персонажа в награду после боя. NL Удаляется",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheDark": {
+    "NAME": "Дарк",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ][ Вода ] NL В конце каждого вашего хода Сжигает все карты в руке и добавляет столько же улучшенных карт Клоу в стопку сброса.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheDash": {
+    "NAME": "Дэш",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Вы берёте карты пока не наберёте полную руку. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheDream": {
+    "NAME": "Дрим",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Преобразуйте все карты Клоу в руке в карты Сакуры. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheEarthy": {
+    "NAME": "Эрси",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Перейти в стойку_Земли до конца боя.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheErase": {
+    "NAME": "Эрейз",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Наносит урон обыч6ому врагу пока у него не останется 1 ОЗ.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFight": {
+    "NAME": "Файт",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Наносит !D! урона. NL Даёт !M! Силы.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFirey": {
+    "NAME": "Файэри",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Перейти в стойку_Огня до конца боя.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFloat": {
+    "NAME": "Флоат",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL В начале каждого вашего хода даёт !M! Ловкости.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFlower": {
+    "NAME": "Флауэр",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Даёт !M! [E]. Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFly": {
+    "NAME": "Флай",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL В начале каждого вашего хода вы берёте !M! карты.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheFreeze": {
+    "NAME": "Фриз",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Наносит !D! урона. NL Даёт !B! Защиты. NL Отменяет действие обычного врага.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheGlow": {
+    "NAME": "Глоу",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL В начале каждого вашего хода даёт !M! Магичесkого_заряда.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheHope": {
+    "NAME": "Хоуп",
+    "DESCRIPTION": "[ Карта_Сакуры ] NL ВЕСЬ ваш урон и Защита теперь удвоены.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheIllusion": {
+    "NAME": "Иллюжн",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] Начальная. NL Накладывает !M! Слабости и Уязвимости. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheJump": {
+    "NAME": "Джамп",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL В начале каждого вашего хода снимает !M! случайный(х) отриц. эффект(а).",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLibra": {
+    "NAME": "Либра",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Убирает все Магичесkие_заряды, даёт !B! Защиты за каждый Магичесkий_заряд.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLight": {
+    "NAME": "Лайт",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ][ Огонь ] NL Сжигает все Статусы и Проклятья. Вы восполняете 1 ОЗ и берёте карту за каждое.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLittle": {
+    "NAME": "Литл",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Вы получаете на 33% меньше урона от Атак.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLock": {
+    "NAME": "Лок",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL В этом ходу Магичесkие_заряды не уменьшаются от дополнительных эффектов карт.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLoop": {
+    "NAME": "Луп",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Вы берете 1 карту, когда Сбрасываете карту.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheLove": {
+    "NAME": "Лав",
+    "DESCRIPTION": "[ Карта_Сакуры ] NL Неиграбельная. Даёт !M! [E] , когда вы берёте эту карту.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheMaze": {
+    "NAME": "Мейз",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Даёт !B! Защиты !M! раза.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheMirror": {
+    "NAME": "Миррор",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ]. NL Выберите 1 из ВСЕХ карт_Клоу. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheMist": {
+    "NAME": "Мист",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Снимает Защиту со ВСЕХ врагов. NL В начале каждого вашего хода накладывает !M! Яда на всех врагов.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheMove": {
+    "NAME": "Мув",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL В начале каждого вашего хода добавляет !M! Пустое_заклинание в руку.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardThePower": {
+    "NAME": "Павер",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Даёт !M! Силы.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheRain": {
+    "NAME": "Рейн",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ]. NL Уменьшает стоимость !M! случайных карт до 0 в этом бою. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheReturn": {
+    "NAME": "Ретурн",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Оставляется. Восполняет все ОЗ и 75% зарядов от последнего Превращения ( !M! ). NL Удаляется.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSand": {
+    "NAME": "Сэнд",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Наносит !D! урона,  накладывает 1 Яда !M! раза.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheShadow": {
+    "NAME": "Шэдоу",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Даёт !B! Защиты. NL Даёт !M! Неосязаемости. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheShield": {
+    "NAME": "Шилд",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Даёт !B! Защиты. NL Даёт Защиту равную !M! % от потерянного ОЗ.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheShot": {
+    "NAME": "Шот",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Наносит !D! урона !M! раза.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSilent": {
+    "NAME": "Сайлент",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Даёт !M! Буфера. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSleep": {
+    "NAME": "Слип",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Усыпляет не боссов на !M! ход. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSnow": {
+    "NAME": "Сноу",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Наносит !D! урона ВСЕМ врагам за каждую разыгранную в этом ходу карту. NL Всего !M! урона.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSong": {
+    "NAME": "Сонг",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Сжигает любые карты. Наносит !D! урона ВСЕМ врагам и даёт !B! Защиты за каждую Сожжённую карту.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheStorm": {
+    "NAME": "Сторм",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Наносит !D! ~ !B! урона !M! раза.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSweet": {
+    "NAME": "Свит",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL В начале каждого вашего хода восполняет !M! % от потерянного ОЗ.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheSword": {
+    "NAME": "Сорд",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ] NL Наносит !D! урона и ещё на !M! % от текущего ОЗ цели.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheThrough": {
+    "NAME": "Фру",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Наносит !D! урона и 10% от Макс. ОЗ ВСЕМ врагам.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheThunder": {
+    "NAME": "Сандер",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Даёт 2Х Магичесkого_заряда и Убирает все. Наносит !D! урона случайному врагу каждые !M! Магичесkих_заряда.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheTime": {
+    "NAME": "Тайм",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Начальная. NL Наносит !D! урона ВСЕМ врагам и отменяет их действия. NL Сжигается",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheTwin": {
+    "NAME": "Твин",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Огонь ][ Вода ] NL Увеличивает стоимость всех карт в руке на 1. ВСЕ карты Клоу теперь разыгрываются дважды.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheVoice": {
+    "NAME": "Войс",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL В начале каждого вашего хода добавляет !M! Войс в руку.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheWatery": {
+    "NAME": "Вотери",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Перейти в стойку_Воды до конца боя.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheWave": {
+    "NAME": "Вейв",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Вода ] NL Перейти в стойки всех элементов. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheWindy": {
+    "NAME": "Винди",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Ветер ] NL Перейти в стойку_Ветра до конца боя.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  },
+  "SakuraCardTheWood": {
+    "NAME": "Вуд",
+    "DESCRIPTION": "[ Карта_Сакуры ][ Земля ] NL Отнимает !M! Силы.",
+    "UPGRADE_DESCRIPTION": "Null",
+    "EXTENDED_DESCRIPTION": []
+  }
+}

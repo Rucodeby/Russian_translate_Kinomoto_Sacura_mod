@@ -1,0 +1,71 @@
+{
+  "KSMOD_ReleaseAction": {
+    "TEXT": [
+      "превращает",
+      "[ Карта_Сакуры ]",
+      "[ Земля ]",
+      "[ Вода ]",
+      "[ Огонь ]",
+      "[ Воздух ]",
+      " Превращение.",
+      " Эфирная.",
+      " Сжигается."
+    ]
+  },
+  "KSMOD_ArrowAction": {
+    "TEXT": [
+      "as arrow"
+    ]
+  },
+  "KSMOD_ChangeAction": {
+    "TEXT": [
+      "replace"
+    ]
+  },
+  "KSMOD_DarkAction": {
+    "TEXT": [
+      "сжигается"
+    ]
+  },
+  "KSMOD_LockAction": {
+    "TEXT": [
+      "сжигается"
+    ]
+  },
+  "KSMOD_MirrorAction": {
+    "TEXT": [
+      "копирование"
+    ]
+  },
+  "KSMOD_MirrorAction_SakuraCard": {
+    "TEXT": [
+      "Выберите карту Клоу, которую хотите добавить в руку"
+    ]
+  },
+  "KSMOD_SongAction": {
+    "TEXT": [
+      "сонг"
+    ]
+  },
+  "KSMOD_SongAction_SakuraCard": {
+    "TEXT": [
+      "сонг"
+    ]
+  },
+  "KSMOD_ReturnAction": {
+    "TEXT": [
+      "Выберите максимум ",
+      " карты, которые вернёте в стопку добора."
+    ]
+  },
+  "KSMOD_TurnAction": {
+    "TEXT": [
+      "Превратить в карту Сакуры"
+    ]
+  },
+  "KSMOD_WriteEmptySpellAction": {
+    "TEXT": [
+      "Выберите Заклинание"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "KinomotoSakura": {
+    "NAMES": [
+      "Киномото Сакура",
+      "Собирательница карт"
+    ],
+    "TEXT": [
+      "“Всё будет хорошо!”",
+      "Карта Клоу",
+      "Карта Сакуры",
+      "Заклинание"
+    ],
+    "OPTIONS": [
+      "Превращение в карту Сакуры неудачно",
+      "Недостаточно Магичесkого заряда.",
+      "Get relic faild, there is no The Create in the master deck.",
+      "ПРОБУДИСЬ!",
+      "Return faild, there is no The Return in the master deck."
+    ],
+    "UNIQUE_REWARDS": []
+  }
+}

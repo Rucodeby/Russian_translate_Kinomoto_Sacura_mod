@@ -1,0 +1,280 @@
+{
+  "KSMOD_MagickChargePower": {
+    "NAME": "Магичесkие заряды",
+    "DESCRIPTIONS": [
+      "Используются для превращения карт #yКлоу в карты #pСакуры, #b",
+      " ."
+    ]
+  },
+  "KSMOD_CreatePower": {
+    "NAME": "Крейт",
+    "DESCRIPTIONS": [
+      "Вы получите #b",
+      " случайную реликвию после боя."
+    ]
+  },
+  "KSMOD_DarkPower": {
+    "NAME": "Дарк",
+    "DESCRIPTIONS": [
+      "В конце каждого вашего хода вы можете сжечь #b",
+      " карту(ы) получив #b1 энергию."
+    ]
+  },
+  "KSMOD_DarkPower_SakuraCard": {
+    "NAME": "Дарк Сакуры",
+    "DESCRIPTIONS": [
+      "В конце каждого вашего хода #yСжигает все карты в руке и добавляет столько же улучшенных карт #yКлоу в стопку сброса."
+    ]
+  },
+  "KSMOD_EarthyPower": {
+    "NAME": "Земля",
+    "DESCRIPTIONS": [
+      "Даёт #b",
+      " #yЗащиты, когда вы разыгрываете карту с элементом #yЗемли."
+    ]
+  },
+  "KSMOD_EarthyPower_SakuraCard": {
+    "NAME": "Эрси Сакуры",
+    "DESCRIPTIONS": [
+      "Вы не уйдёте из #yстойки #yЗемли."
+    ]
+  },
+  "KSMOD_WateryPower": {
+    "NAME": "Вода",
+    "DESCRIPTIONS": [
+      "Каждые #b",
+      " карты с элементом #yВоды, получите #b1 энергию.",
+      " NL Разыгрывание следующей карты даст энергию."
+    ]
+  },
+  "KSMOD_WateryPower_SakuraCard": {
+    "NAME": "Вотери Сакуры",
+    "DESCRIPTIONS": [
+      "Вы не уйдёте из #yстойки #yВоды."
+    ]
+  },
+  "KSMOD_FireyPower": {
+    "NAME": "Огонь",
+    "DESCRIPTIONS": [
+      "Наносит #b",
+      " урона ВСЕМ врагам, когды вы разыгрываете карту с элементом #yОгня."
+    ]
+  },
+  "KSMOD_FireyPower_SakuraCard": {
+    "NAME": "Файэри Сакуры",
+    "DESCRIPTIONS": [
+      "Вы не уйдёте из #yстойки #yОгня."
+    ]
+  },
+  "KSMOD_WindyPower": {
+    "NAME": "Воздух",
+    "DESCRIPTIONS": [
+      "Каждые #b",
+      " карты с элементом #yВоздуха, вы берёте #b1 карту.",
+      " NL Вы берёте карту разыгрывая следующую карту."
+    ]
+  },
+  "KSMOD_WindyPower_SakuraCard": {
+    "NAME": "Винди Сакуры",
+    "DESCRIPTIONS": [
+      "Вы не уйдёте из #yстойки #yВоздуха."
+    ]
+  },
+  "KSMOD_FloatPower": {
+    "NAME": "Флоат",
+    "DESCRIPTIONS": [
+      "Даёт #b",
+      " #yЗащиты, когда вы берёте карту."
+    ]
+  },
+  "KSMOD_FloatPower_SakuraCard": {
+    "NAME": "Флоат Сакуры",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода даёт #b",
+      " #yЛовкости."
+    ]
+  },
+  "KSMOD_FlyPower_SakuraCard": {
+    "NAME": "Флай Сакуры",
+    "DESCRIPTIONS": [
+      "Вы берёте на #b",
+      " карту(ы) больше в начале каждого вашего хода."
+    ]
+  },
+  "KSMOD_FreezePower": {
+    "NAME": "Freeze",
+    "DESCRIPTIONS": [
+      "At the start of the turn, stun the non-boss and non-elite target."
+    ]
+  },
+  "KSMOD_GlowPower_SakuraCard": {
+    "NAME": "Глоу Сакуры",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода даёт #b",
+      " #yМагичесkого #yЗаряда."
+    ]
+  },
+  "KSMOD_JumpPower_SakuraCard": {
+    "NAME": "Джамп Сакуры",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода снимает #b",
+      " случаный(х) отриц. эффект(а)."
+    ]
+  },
+  "KSMOD_LightPower": {
+    "NAME": "Лайт",
+    "DESCRIPTIONS": [
+      "Повышает лимит карт в руке на #b2. NL #yБездна больше не забирает энергию.",
+      " Разыгрывая #yБездну вы берёте #b1 карту."
+    ]
+  },
+  "KSMOD_LoopPower": {
+    "NAME": "Луп",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода вы берёте #b",
+      " карту(ы) и сбрасываете #b",
+      " карту(ы)."
+    ]
+  },
+  "KSMOD_LoopPower_SakuraCard": {
+    "NAME": "Луп Сакуры",
+    "DESCRIPTIONS": [
+      "Вы берёте #b",
+      " карту, когда сбрасываете карту."
+    ]
+  },
+  "KSMOD_LockPower": {
+    "NAME": "Лок",
+    "DESCRIPTIONS": [
+      "#yMagick #yCharge will not be triggered in the next #b",
+      " turns."
+    ]
+  },
+  "KSMOD_LockPower_SakuraCard": {
+    "NAME": "Лок Сакуры",
+    "DESCRIPTIONS": [
+      "Следующий(ие) #b",
+      " ход(а) #yМагичесkие #yЗаряды не уменьшаются от дополнительных эффектов карт."
+    ]
+  },
+  "KSMOD_ReturnPower": {
+    "NAME": "Ретурн",
+    "DESCRIPTIONS": [
+      "Перейдите в прошлую стойку через #b",
+      " ход(а). "
+    ]
+  },
+  "KSMOD_SilentPower": {
+    "NAME": "Сайлент",
+    "DESCRIPTIONS": [
+      "Вы не сможете разыграть #yАтаки в следующем ходу."
+    ]
+  },
+  "KSMOD_SleepPower": {
+    "NAME": "Слип",
+    "DESCRIPTIONS": [
+      "Будет спать #b",
+      " ход(а). NL Цель проснётся если, вы нанесёте ей урон по ОЗ. NL Восполнит всё ОЗ и получит 2 #yСлабости, когда проснётся сама ."
+    ]
+  },
+  "KSMOD_TimePower": {
+    "NAME": "Тайм",
+    "DESCRIPTIONS": [
+      "Не может ничего делать #b",
+      " ход(а)."
+    ]
+  },
+  "KSMOD_TwinPower": {
+    "NAME": "Твин",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода первая карта #yКлоу разыгрывается дважды.",
+      "В начале каждого вашего хода первые #b",
+      " карты #yКлоу разыгрываются дважды."
+    ]
+  },
+  "KSMOD_TwinPower_SakuraCard": {
+    "NAME": "Твин Сакуры",
+    "DESCRIPTIONS": [
+      "ВСЕ карты #yКлоу разыгрываются дважды."
+    ]
+  },
+  "KSMOD_WavePower": {
+    "NAME": "Вейв",
+    "DESCRIPTIONS": [
+      "Даёт #b",
+      " #yЗащиты когды вы разыгрываете #yАтаку."
+    ]
+  },
+  "KSMOD_BigPower_SakuraCard": {
+    "NAME": "Биг Сакуры",
+    "DESCRIPTIONS": [
+      "#yАтаки наносят на #b",
+      "% больше урона."
+    ]
+  },
+  "KSMOD_LittlePower_SakuraCard": {
+    "NAME": "Литл Сакуры",
+    "DESCRIPTIONS": [
+      "Вы получаете на #b",
+      "% меньше урона от Атак."
+    ]
+  },
+  "KSMOD_SweetPower_SakuraCard": {
+    "NAME": "Свит Сакуры",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода восполняет #b",
+      "% от недостающего ОЗ."
+    ]
+  },
+  "KSMOD_VoicePower_SakuraCard": {
+    "NAME": "Войс",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода добавляет #b",
+      " #yВойс в руку."
+    ]
+  },
+  "KSMOD_CerberusMarkPower": {
+    "NAME": "Метка Кербероса",
+    "DESCRIPTIONS": [
+      "Получает на #b",
+      "% больше урона от #yАтак. NL Снимается в начале хода."
+    ]
+  },
+  "KSMOD_MovePower_SakuraCard": {
+    "NAME": "Мув Сакуры",
+    "DESCRIPTIONS": [
+      "В начале каждого вашего хода добавляет #b",
+      " #yПустое #yзаклинание в руку."
+    ]
+  },
+  "KSMOD_DreamPower_SakuraCard": {
+    "NAME": "Dreamland Sakura",
+    "DESCRIPTIONS": [
+      "Through the [Dream] card, have obtained the temporary Sakura Cards. At the end of the turn, They will change back to the Clow Cards. The temporary Sakura Cards are: ",
+      ", ",
+      "None"
+    ]
+  },
+  "KSMOD_HopePower_SakuraCard": {
+    "NAME": "Хоуп Сакуры",
+    "DESCRIPTIONS": [
+      "ВЕСЬ ваш урон и #yЗащита теперь удвоена."
+    ]
+  },
+  "KSMOD_NothingPower": {
+    "NAME": "Нафинг",
+    "DESCRIPTIONS": [
+      "ВСЕ карты #yКлоу и карты #pСакуры теперь стоят 0, #rСжигаются при разыгрывании, наносят #b",
+      " ВСЕМ врагам и дают #b",
+      " #yЗащиты. NL Удаляет случайную карту из колоды в конце боя.",
+      " #yЗащиты."
+    ]
+  },
+  "KSMOD_NothingPower_Monster": {
+    "NAME": "Нафинг",
+    "DESCRIPTIONS": [
+      "Карты #yКлоу или #pСакуры #rСжигаются с шансом #b",
+      "% ."
+    ]
+  }
+}
