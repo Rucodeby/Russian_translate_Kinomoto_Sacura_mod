@@ -48,7 +48,7 @@
   },
   "ClowCardTheDark": {
     "NAME": "Дарк",
-    "DESCRIPTION": "[ Воздух ][ Вода ] NL В конце каждого вашего хода вы можете сжечь 1 карту, получив [E] .",
+    "DESCRIPTION": "[ Воздух ][ Вода ] NL В конце каждого вашего хода вы можете сжечь 1 карту, получив энергию .",
     "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": []
   },
@@ -107,11 +107,11 @@
   },
   "ClowCardTheFlower": {
     "NAME": "Флауэр",
-    "DESCRIPTION": " [ Земля ] NL Даёт !M! [E]. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "[ Земля ] NL Даёт !M! [E].",
+    "DESCRIPTION": " [ Земля ] NL Даёт !M! энергии. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "[ Земля ] NL Даёт !M! энергии.",
     "EXTENDED_DESCRIPTION": [
       " Даёт доп. ",
-      " [E]."
+      " энергии."
     ]
   },
   "ClowCardTheFly": {
@@ -164,8 +164,8 @@
   },
   "ClowCardTheLight": {
     "NAME": "Лайт",
-    "DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает [E].",
-    "UPGRADE_DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает [E]. NL Бездну теперь можно разыграть NL Вы берёте карту при разыгрывании *Бездны.",
+    "DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает энергию.",
+    "UPGRADE_DESCRIPTION": "[ Земля ][ Огонь ] NL Увеличивает лимит карт в руке на 2. NL Бездна больше не забирает энергию. NL Бездну теперь можно разыграть NL Вы берёте карту при разыгрывании *Бездны.",
     "EXTENDED_DESCRIPTION": []
   },
   "ClowCardTheLittle": {
@@ -544,7 +544,7 @@
   },
   "SakuraCardTheFlower": {
     "NAME": "Флауэр",
-    "DESCRIPTION": "[ Карта\u00a0Сакуры ][ Земля ] NL Даёт !M! [E]. Сжигается",
+    "DESCRIPTION": "[ Карта\u00a0Сакуры ][ Земля ] NL Даёт !M! энергии. Сжигается",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": []
   },
@@ -616,7 +616,7 @@
   },
   "SakuraCardTheLove": {
     "NAME": "Лав",
-    "DESCRIPTION": "[ Карта\u00a0Сакуры ] NL Неиграбельная. Даёт !M! [E] , когда вы берёте эту карту.",
+    "DESCRIPTION": "[ Карта\u00a0Сакуры ] NL Неиграбельная. Даёт !M! энергии, когда вы берёте эту карту.",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": []
   },
