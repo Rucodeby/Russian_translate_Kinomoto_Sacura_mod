@@ -78,10 +78,10 @@
   },
   "ClowCardTheErase": {
     "NAME": "Эрейз",
-    "DESCRIPTION": "[ Воздух ] NL Убивает Миньона или обычного врага с меньше чем 1/3 от его макс. ОЗ иначе, наносит !D! урона.",
+    "DESCRIPTION": "[ Воздух ] NL Убивает Миньона или обычного врага с меньше чем 1/3 от вашего макс. ОЗ иначе, наносит !D! урона.",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": [
-      "[ Воздух ] NL Убивает не босса и не миньона с меньше чем 2/3 от его макс ОЗ иначе, наносит !D! урона."
+      "[ Воздух ] NL Убивает не босса и не миньона с меньше чем 2/3 от вашего макс ОЗ иначе, наносит !D! урона."
     ]
   },
   "ClowCardTheFight": {
@@ -117,7 +117,7 @@
   "ClowCardTheFly": {
     "NAME": "Флай",
     "DESCRIPTION": "[ Воздух ] NL Вы берёте !M! карты. Отнимает 3 Магичесkого\u00a0заряда.",
-    "UPGRADE_DESCRIPTION": "Null",
+    "UPGRADE_DESCRIPTION": "[ Воздух ] NL Вы берёте !M! карты.",
     "EXTENDED_DESCRIPTION": [
       " Вы берёте ещё ",
       " карты."
@@ -128,7 +128,7 @@
     "DESCRIPTION": "[ Вода ] NL Наносит !D! урона. NL Даёт !B! Защиты.",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": [
-      " Target-Frozen."
+      " Заморозка\u00a0цели."
     ]
   },
   "ClowCardTheGlow": {
@@ -322,10 +322,10 @@
   },
   "ClowCardTheStorm": {
     "NAME": "Сторм",
-    "DESCRIPTION": "[ Воздух ] NL Наносит !D! урона. Добавляет 1 *Бездну в стопку сброса.",
+    "DESCRIPTION": "[ Воздух ] NL Наносит !D! урона 5 раз. Добавляет 1 *Бездну в стопку сброса.",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": [
-      "[ Воздух ] NL Наносит !D! урона ВСЕМ врагам. Добавляет 1 *Бездну в стопку сброса."
+      "[ Воздух ] NL Наносит !D! урона ВСЕМ врагам 5 раз. Добавляет 1 *Бездну в стопку сброса."
     ]
   },
   "ClowCardTheSweet": {
@@ -682,7 +682,7 @@
   },
   "SakuraCardTheShot": {
     "NAME": "Шот",
-    "DESCRIPTION": "[ Карта\u00a0Сакуры ][ Огонь ] NL Наносит !D! урона !M! раза.",
+    "DESCRIPTION": "[ Карта\u00a0Сакуры ][ Огонь ] NL Наносит !D! урона !M! раз.",
     "UPGRADE_DESCRIPTION": "Null",
     "EXTENDED_DESCRIPTION": []
   },
